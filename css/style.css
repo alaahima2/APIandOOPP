@@ -1,0 +1,53 @@
+
+.smallfont{
+font-size: 12px;
+}
+
+.xsmallfont{
+    font-size: 10px;
+    }
+
+.backgroundimg{
+
+    background-image:   url(../img/wraper.png) ;
+ 
+    /* overflow: auto; */
+    height: 30vh;
+ 
+    width: 100%;
+    background-size: cover;
+  
+    
+}
+
+.zoom:hover {
+    transform: scale(1.1); 
+    transition: transform .5s;
+    }
+    
+
+    i:hover{
+        background-color: aqua;
+    }
+
+    .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+    
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+  .heigh20 {
+    height:20vh;
+  }
+
+  .heigh7 {
+    height:7vh;
+  }
